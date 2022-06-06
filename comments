@@ -1,0 +1,25 @@
+ 
+      //edges
+ //     if (i == 0 || i == cols - 1 || j == 0 || j == rows - 1) {
+   //     next[i][j] = grid[i][j];
+     // } else {
+        
+        
+        
+/*         
+
+count live neighbors
+        sum += grid[i -1][j - 1];
+        sum += grid[i][j - 1];
+        sum += grid[i + 1][j - 1];
+        sum += grid[i - 1][j];
+        sum += grid[i + 1][j]
+        sum += grid[i - 1][j + 1];
+        sum += grid[i][j + 1];
+        sum += grid[i + 1][j + 1]; 
+        
+*/
+
+        //total of 8 nieghbors
+
+        //use a function to do the above
