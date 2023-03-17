@@ -1,10 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css?family=Amatic+SC'); */
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
-
-
 
 body {
-    /* ff 3.6+ */
 
     /* global 94%+ browsers support */
     background:linear-gradient(90deg, rgba(0, 67, 76, 1) 0%, rgba(27, 36, 83, 1) 100%);
@@ -13,8 +8,8 @@ body {
 
 .header {
     
-    padding-top: 5%;
-    padding-left: 10%;
+    padding-top: 50px;
+    padding-left: 80px;
     font-family: 'Bebas Neue';
     color: whitesmoke;
     
@@ -22,7 +17,7 @@ body {
 
 .paragraph {
     display: grid;
-    padding-left: 10%;
+    padding-left: 80px;
     width: 500px;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -50,7 +45,7 @@ button {
     position: relative;
     top: 520px;
     padding: 10px 50px;
-    margin-bottom: 2%;
+    margin-bottom: 50px;
     font-size: 20px;
     color: #c5c5c7;
     border: none;
