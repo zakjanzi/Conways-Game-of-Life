@@ -1,0 +1,68 @@
+/* @import url('https://fonts.googleapis.com/css?family=Amatic+SC'); */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+
+
+body {
+    /* ff 3.6+ */
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(0, 67, 76, 1) 0%, rgba(27, 36, 83, 1) 100%);
+
+}
+
+.header {
+    
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    
+}
+
+.paragraph {
+    display: grid;
+    padding-left: 10%;
+    width: 500px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    z-index: 0;
+    position: relative;
+    color: #b9b9b9;
+}
+
+section div:first-of-type {
+    position: absolute;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+
+    padding: 10px 50px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: #c5c5c7;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3F51B5;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+ button:hover {
+    background-color: rgb(17, 27, 73);
+    cursor: pointer;
+}
