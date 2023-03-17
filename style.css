@@ -47,7 +47,8 @@ main {
 }
 
 button {
-
+    position: relative;
+    top: 520px;
     padding: 10px 50px;
     margin-bottom: 2%;
     font-size: 20px;
@@ -57,12 +58,12 @@ button {
     font-family: 'Bebas Neue';
     font-size: 18px;
     font-weight: 600;
-    background-color: #3F51B5;
+    background-color: #092447;
     transition: 0.5s;
     z-index: 1;
 }
 
  button:hover {
-    background-color: rgb(17, 27, 73);
+    background-color: rgb(3, 71, 88);
     cursor: pointer;
 }
